@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Learn</title>
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Custon css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awsome link -->
+    <script src="https://kit.fontawesome.com/00c39e9316.js" crossorigin="anonymous"></script>
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!---------------------------------------
+            Header-section/Hero-section Start
+        ---------------------------------------->
+    <header id="home" class="container">
+        <!--------------- Navber-section start -------------->
+        <nav class="navbar navbar-expand-lg fixed-top nav-bg bg-nav  ">
+            <div class="container ">
+                <a class="navbar-brand " href="">
+                    <img src=" images/logo1.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto gap-lg-4 ">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-secondary  active " aria-current="page"
+                               href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-secondary  " href="#Courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-secondary  " href="#explore">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-secondary" href="#Courses">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold text-secondary" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="btn btn-main nav-register py-2 px-5 text-light fw-bold rounded-2 border border-info"
+                               href="#register">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!---------------------- Navber-section end --------------------->
+        <br>
+        <!---------------------- Heder-content start --------------------->
+        <section class=" my-3 py-5  ">
+            <!----------- carousel start ---------->
+            <section class="container">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <!-- carousel-1 -->
+                        <div class="carousel-item active">
+                            <img src="images/cover/cover-7.jpg" class="d-block w-100 rounded-2" alt="...">
+                            <div class="carousel-caption  d-md-block mb-2 pb-5">
+                                <h1 class="fw-bold fs-1 text-main">Learn From The Expart</h1>
+                                <p class="fw-semibold text-white d-none d-md-block ">
+                                    Learn 100% online with World-class
+                                    universities and industry Exparts
+                                </p>
+                                <a class="btn btn-main py-2 px-5 text-light fw-bold rounded-2 border border-info"
+                                   href="#">Get started</a>
+                            </div>
+                        </div>
+
+                        <!-- carousel-2 -->
+                        <div class="carousel-item ">
+                            <img src="images/cover/cover-9.jpg" class="d-block w-100 rounded-2" alt="...">
+                            <div class="carousel-caption  d-md-block mb-2 pb-5">
+                                <h1 class="fw-bold fs-1 text-main">Learn From The Expart</h1>
+                                <p class="fw-semibold text-white d-none d-md-block ">
+                                    Learn 100% online with World-class
+                                    universities and industry Exparts
+                                </p>
+                                <a class="btn btn-main py-2 px-5 text-light fw-bold rounded-2 border border-info"
+                                   href="#">Get started</a>
+                            </div>
+                        </div>
+
+                        <!-- carousel-3 -->
+                        <div class="carousel-item ">
+                            <img src="images/cover/cover-8.jpg" class="d-block w-100 rounded-2" alt="...">
+                            <div class="carousel-caption  d-md-block mb-2 pb-5">
+                                <h1 class="fw-bold fs-1 text-main">Learn From The Expart</h1>
+                                <p class="fw-semibold text-white d-none d-md-block ">
+                                    Learn 100% online with World-class
+                                    universities and industry Exparts
+                                </p>
+                                <a class="btn btn-main py-2 px-5 text-light fw-bold rounded-2 border border-info"
+                                   href="#">Get started</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Welcome to LIFE LEARN, your premier destination for online learning. We are passionate about providing high-quality education and empowering individuals to unlock their full potential. Our mission is to create a dynamic and interactive learning environment that fosters growth, knowledge acquisition, and skills development.
+
+            At  LIFE LEARN, we believe that learning should be accessible to everyone, regardless of their background or geographical location. With a vast range of courses and resources, we strive to cater to diverse interests and learning styles. Whether you are a student, professional, or lifelong learner, our platform offers a wealth of educational opportunities to suit your needs.
+
+            Our team of experienced instructors and subject matter experts are dedicated to delivering engaging and comprehensive content. We carefully curate our courses to ensure they are up-to-date, relevant, and aligned with industry standards. From foundational topics to advanced subjects, we cover a wide spectrum of disciplines, including technology, business, arts, and more.
+
+            We understand that learning is a journey, and we are committed to supporting you every step of the way. Our user-friendly interface and intuitive navigation make it easy to explore our course catalog, track your progress, and engage with fellow learners. Additionally, our community forums and interactive features provide opportunities for collaboration, knowledge sharing, and networking.
+
+            At  LIFE LEARN, we prioritize your success. We offer personalized learning paths, assessments, and feedback to help you measure your progress and achieve your learning goals. Our flexible scheduling allows you to learn at your own pace, fitting seamlessly into your busy lifestyle. Whether you prefer to learn during the day or night, from the comfort of your home or on the go, our platform is accessible anytime, anywhere.
+
+            Join the  ScholarsHub community and embark on a transformative learning experience. Expand your horizons, acquire new skills, and gain the confidence to excel in your personal and professional endeavors. Let us be your trusted partner on your lifelong learning journey.
+
+            Together, let's embrace the power of education and unlock the doors to endless possibilities. Discover, learn, and thrive with  LIFE LEARN.
+
+            Start your learning journey today!
+            .
+        </p>
+    </section>
+
+    <!---- carousel ends ------->
+    <br>
+    <main>
+        <!--------------------------
+            Course Section start here
+         ---------------------------->
+        <section id="Courses">
+            <div class="container">
+                <div class="text-center p-5">
+                    <h1 class="text-main">
+                        Our Popular Courses
+                    </h1>
+                    <p>
+                        Education is the most powerfull weapon witch you can use to change the world, you need weapon?
+                        cheack our most valuable courses
+                    </p>
+                </div>
+                <div class="row d-flex flex-column flex-lg-row align-items-center">
+                    <div class="col-lg-6 col-md-12 mb-2">
+                        <div class="d-flex flex-column flex-lg-row flex-md-row text-lg-start shadow-lg items rounded-4 align-items-center pe-lg-4"
+                             href="">
+                            <div class="course-thumbnail">
+                                <img src="images/course/course-1.png" alt="">
+                            </div>
+                            <div class="course-details ps-lg-4 ps-md-4 pe-md-2 ">
+                                <h5>UI/UX COURSE</h5>
+                                <p>
+                                    We Offer UI/UX COURSE for learnenrs. Teaching by Renowned best teachers.
+                                </p>
+                                <h6 class="text-muted text-decoration-line-through">Price : 4000 INR(quaterly)</h6>
+                                <h5 class="text-info">Price : 2500 INR  </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-2">
+                        <div class="d-flex flex-column flex-lg-row flex-md-row text-lg-start shadow-lg items rounded-4 align-items-center pe-lg-4"
+                             href="">
+                            <div class="course-thumbnail">
+                                <img src="images/course/course-2.png" alt="">
+                            </div>
+                            <div class="course-details ps-lg-4 ps-md-4 pe-md-2">
+                                <h5>intermediate(12th) computer</h5>
+                                <p>
+                                    Master your computer language with lessons, quizzes that will help you to embarace skills .
+                                </p>
+                                <h6 class="text-muted text-decoration-line-through">Price : 3000 INR(quaterly)</h6>
+                                <h5 class="text-info">Price : 2000 INR</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-2">
+                        <div class="d-flex flex-column flex-lg-row flex-md-row text-lg-start shadow-lg items rounded-4 align-items-center pe-lg-4"
+                             href="">
+                            <div class="course-thumbnail">
+                                <img src="images/course/course-3.png" alt="">
+                            </div>
+                            <div class="course-details ps-lg-4 ps-md-4 pe-md-2">
+                                <h5>Fullstack Web Development</h5>
+                                <p>
+                                    Master your language with lessons, quizzes, and projects designed for real-life
+                                    scenarios. Learn key takeaway skills of full stack engineering and earn a
+                                    certificate of completion
+                                </p>
+                                <h6 class="text-muted text-decoration-line-through">Price : 12000 INR</h6>
+                                <h5 class="text-info">Price : 10000 INR</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-2">
+                        <div class="d-flex flex-column flex-lg-row flex-md-row text-lg-start shadow-lg items rounded-4 align-items-center pe-lg-4"
+                             href="">
+                            <div class="course-thumbnail">
+                                <img src="images/course/course-4.png" alt="">
+                            </div>
+                            <div class="course-details ps-lg-4 ps-md-4 pe-md-2">
+                                <h5>Digital Marketing</h5>
+                                <p>
+                                    Discover how to research and build the correct marketing strategies for key
+                                    stakeholders. Start your career with <strong>Life Learn</strong> - Diamond Winner in
+                                    two separate
+                                    categories in 2022!
+                                </p>
+                                <h6 class="text-muted text-decoration-line-through">Price : 10000 INR</h6>
+                                <h5 class="text-info">Price : 9000 INR</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-2">
+                        <div class="d-flex flex-column flex-lg-row flex-md-row text-lg-start  shadow-lg items rounded-4 align-items-center pe-lg-4"
+                             href="">
+                            <div class="course-thumbnail">
+                                <img src="images/course/course-5.png" alt="">
+                            </div>
+                            <div class="course-details ps-lg-4 ps-md-4 pe-md-2">
+                                <h5>Photography Basic Rules</h5>
+                                <p>
+                                    his is the Future-Oriented Bachelor's Programme for Passionate Photographers. Apply
+                                    Now! Get Photography Bachelor's Degree in <strong>Life Learn</strong> institute
+                                </p>
+                                <h6 class="text-muted text-decoration-line-through">Price : 15000 INR</h6>
+                                <h5 class="text-info">Price : 13000 INR</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-2">
+                        <div class="d-flex flex-column flex-lg-row flex-md-row text-lg-start shadow-lg items rounded-4 align-items-center pe-lg-4"
+                             href="">
+                            <div class="course-thumbnail">
+                                <img src="images/course/course-6.png" alt="">
+                            </div>
+                            <div class="course-details ps-lg-4 ps-md-4 pe-md-2">
+                                <h5>Motion Graphics</h5>
+                                <p>
+                                    Learn motion graphics with top-rated courses from <strong>Life Learn</strong> .
+                                    Whether you're interested
+                                    in creating motion graphics videos and kinetic typography
+                                </p>
+                                <h6 class="text-muted text-decoration-line-through">Price : 25000 INR</h6>
+                                <h5 class="text-info">Price : 15000 INR</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-5 d-flex justify-content-center">
+                        <a class="btn btn-main py-2 px-5 text-light fw-bold rounded-2 border border-info" href="#">
+                            Get
+                            started
+                        </a>
+                    </div>
+        </section>
+    </main>
+    <!-- course-section end -->
+    <br>
+    <!-- Insitute Info start -->
+    <section id="explore" class="container">
+        <div class="row g-2 align-items-center p-2 bg-light rounded-4">
+            <div class="col-12 col-md-6 p-2">
+                <img class="img-fluid rounded-4" src="images/working.png" alt="">
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="details ps-4">
+                    <h1 class="text-main">Explore The elearning</h1>
+                    <p class="fw-semibold text-muted">
+                        Being unsure of what you want to do in life, or what you want to
+                        study, is not unusual. How to deal with the changes that we want in our lives can be more
+                        challenging. You might want to be clearer about what you want to do with your life, or what you
+                        want to study. You might also be interested in to meet the challenges that life keeps throwing
+                        your way. You may be thinking about whether college is for you, or if you could cope with it.
+                        You might want to think about what subjects or courses you would like to take. If you would
+                        like the chance to think about any of these questions, <strong> Life Learn</strong> might just
+                        be what you
+                        are looking for. <br>
+                        <strong> Life Learn</strong> takes your life as its starting point
+                    </p>
+                    <div class="reviews row  row-cols-md-2 row-cols-lg-3 g-4 justify-content-between">
+                        <div class="col-6">
+                            <h1 class="fw-bold">3.2K+</h1>
+                            <p></p>
+                            <p class="text-muted fw-semibold">Online Course</p>
+                        </div>
+                        <div class="col-6">
+                            <h1 class="fw-bold">600+</h1>
+                            <p class="text-muted fw-semibold">Expert Member</p>
+                        </div>
+                        <div class="col-6">
+                            <h1 class="fw-bold">1K+</h1>
+                            <p class="text-muted fw-semibold">Rating & Reviews</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a class="btn btn-main py-2 px-5 text-light fw-bold rounded-2 border border-info" href="#">
+                            Get
+                            started
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Insitute Info end -->
+    <br>
+    <!-- Registration section start -->
+    <section id="register" class="container py-5 mt-5">
+        <div class="d-lg-flex justify-content-around align-items-center bg-main p-5 text-center text-md-start rounded-4 shadow-lg">
+            <div class="">
+                <h1 class="fw-bold text-white">Ready to Join?</h1>
+                <p class="fw-semibold text-white">
+                    Learn 100% online with World-class universities and industry Exparts
+                </p>
+            </div>
+            <div class="">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-main text-light fw-semibold fs-5 shadow-lg" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                    Register Now
+                </button>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Join Now</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                               aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">
+                                            We'll never share your email
+                                            with anyone else.
+                                        </small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">New Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                               placeholder="******">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Confirm Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                               placeholder="******">
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-main text-light fw-normal "> Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary text-light fw-normal"
+                                        data-bs-dismiss="modal">
+                                    Close
+                                </button>
+                                <button type="button" class="btn btn-main text-light fw-normal">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Registration section end -->
+    <br>
+    <section class="container pt-5">
+        <div class="text-center ">
+            <h1 class="fw-bold text-main">Meet Our Successful <br> Students</h1>
+            <p class="pb-2">
+                Practice isn’t the thing you do once your good. It’s the thing you do that makes you good.
+            </p>
+
+            <div class="row g-2">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="border-2 shadow-sm text-center bg-light pb-2">
+                        <img class="img-fluid pb-1" src="images/student/student-3.png" alt="">
+                        <h5>Tonmoy islam</h5>
+                        <small>UIUX Designer</small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="border-2 shadow-sm text-center bg-light pb-2">
+                        <img class="img-fluid pb-1" src="images/student/student-4.png" alt="">
+                        <h5>Meherima</h5>
+                        <small>Motion Design</small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="border-2 shadow-sm text-center bg-light pb-2">
+                        <img class="img-fluid pb-1" src="images/student/student-1.png" alt="">
+                        <h5>Saif irfan</h5>
+                        <small>Graphic Designer</small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="border-2 shadow-sm text-center bg-light pb-2">
+                        <img class="img-fluid pb-1" src="images/student/student-2.png" alt="">
+                        <h5>Sadia Afreen</h5>
+                        <small>Web Developer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center pt-5">
+            <button type="button" class="btn btn-main active" data-bs-toggle="button" aria-pressed="true">
+                View
+                all
+            </button>
+        </div>
+    </section>
+    <!-- Meet Section end here -->
+    <br>
+    <!-- Studens feedback Section Start  -->
+
+    <section class="container">
+        <div class="section-title text-center">
+            <h1 class="fw-bold text-main">Some Students Feedback</h1>
+            <p class="text-muted w-75 mx-auto">
+                Encourage learners to ask questions about their feedback.
+            </p>
+        </div>
+        <br>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card border-2 shadow-sm p-4">
+                    <div class="card-top d-flex justify-content-between">
+                        <div class="comma-img">
+                            <img src="images/comma.png" class="img-fluid  w-75 card-img-top" alt="...">
+                        </div>
+                        <div class="star-revies">
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-muted"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body py-3 px-0">
+
+                        <p class="card-text text-muted">
+                            “Hello Sir/Mam, I have been waiting to find the right moment
+                            and share a piece of my life with you, hoping it would bring a smile to your face too. All
+                            my life, I have dealt
+                            with piercing gazes because of my learning disability. However, the last few weeks for me
+                            have been tremendously boosting.I hope to learn so much more from this Institute in the
+                            upcoming months.
+                        </p>
+                        <div class="d-flex align-items-center gap-3">
+                            <div>
+                                <img src="images/student/student-5.png" alt="">
+                            </div>
+
+                            <div>
+                                <h6 class="fw-bold">Sakir</h6>
+                                <p class="my-0 text-muted">UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-2 shadow-sm  p-4">
+                    <div class="card-top d-flex justify-content-between">
+                        <div class="comma-img">
+                            <img src="images/comma.png" class="img-fluid  w-75 card-img-top" alt="...">
+                        </div>
+                        <div class="star-revies">
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-muted"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body py-3 px-0">
+
+                        <p class="card-text text-muted">
+                            “Hello Sir/Mam, I have been waiting to find the right moment
+                            and share a piece of my life with you, hoping it would bring a smile to your face too. All
+                            my life, I have dealt
+                            with piercing gazes because of my learning disability. However, the last few weeks for me
+                            have been tremendously boosting.I hope to learn so much more from this Institute in the
+                            upcoming months.
+                        </p>
+                        <div class="d-flex align-items-center gap-3">
+                            <div>
+                                <img src="images/student/student-6.png" alt="">
+                            </div>
+
+                            <div>
+                                <h6 class="fw-bold">Anestesia</h6>
+                                <p class="my-0 text-muted">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="py-5 d-flex justify-content-center">
+            <a href="#" class="btn btn-main text-white fw-bold fs-5">View All</a>
+        </div>
+
+    </section>
+    <!-- Students feedback Section end  -->
+    <br>
+    <!-- Questions Section Start  -->
+    <section>
+        <div class="container my-5">
+            <div class="text-center">
+                <h1 class="text-main">Frequently Asked Questions</h1>
+                <p>
+                    In FAQ page is a time-saving customer service tactic that provides <br>
+                    the most commonly asked questions and answers for current or
+                    potential customers.
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row d-flex justify-content-center pb-5">
+                <div class="col-12 col-lg-8 ">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                        <div class="accordion-item border-1 border-info mb-4 ">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                    <span class="text-secondary">Difference between Flex Box vs Grid</span>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                 aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <p>
+                                        Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox
+                                        <strong>
+                                            Layout is that flexbox was designed for layout in one dimension -
+                                            either a row
+                                            or a column.
+                                        </strong> Grid was designed for <strong>two-dimensional</strong>
+                                        layout - rows, and columns
+                                        at the same time.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-1 border-info mb-4 ">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                    Difference between Bootstrap vs Tailwind
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                 aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <p>
+                                        Bootstrap's utility and layout classes provide you with everything you need to
+                                        style a responsive webpage. With Tailwind, however, <strong>
+                                            you are
+                                            much more involved
+                                            in styling the webpage because you end up having to create your own
+                                            components
+                                            using the utility classes that the framework offers
+                                        </strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-1 border-info mb-4 ">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseThree">
+                                    What is CSS Box Model?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                 aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <p>
+                                        The CSS box model is essentially a box that <strong>
+                                            wraps around every
+                                            HTML
+                                            element.
+                                        </strong> It consists of: margins, borders, padding, and the actual
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-1 border-info mb-4 ">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseFour">
+                                    What is semantic extension with example?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                 aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body">
+                                    <p>
+                                        The HTML semantics refers to the tags that provide meaning to an HTML page
+                                        rather than just presentation. <strong>
+                                            It makes HTML more
+                                            comprehensible by better
+                                            defining the different sections and layout of web pages.
+                                        </strong> <br>
+                                        Examples of non-semantic elements: div and span - Tells nothing about its
+                                        content. <br>
+                                        Examples of semantic elements: form, table, and article - Clearly defines its
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Questions Section end  -->
+    <section>
+        <div class="container mt-5">
+            <div>
+                <h1 class="text-center d-none d-lg-block fw-bold text-main">
+                    Trusted by over 800+ companies
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!-- partner section start -->
+    <section>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-2 d-none d-lg-block">
+                    <img src="images/company/company-1.png" alt="" class="img-fluid w-75" />
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <img src="images/company/company-2.png" alt="" class="img-fluid w-75" />
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <img src="images/company/company-3.png" alt="" class="img-fluid w-75" />
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <img src="images/company/company-4.png" alt="" class="img-fluid w-75" />
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <img src="images/company/company-5.png" alt="" class="img-fluid w-75" />
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <img src="images/company/company-6.png" alt="" class="img-fluid w-75" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- partner section End -->
+    <br>
+    <!-- footer section Start-->
+    <footer class="bg-dark text-light text-center py-5 ">
+        <div class="container">
+            <img src="images/logo1.png" alt="">
+            <p>Privacy Ploicy | Terms of use</p>
+            <p>created by Vaibhav Gupta</p>
+        </div>
+        <div class="social-links ">
+            <a class="text-white fs-3 " href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a class="text-white fs-3 ps-4" href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="text-white fs-3 ps-4" href="https://www.linkedin.com/in/vaibhav-gupta-5a7bb71b5" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="text-white fs-3 ps-4" href="https://github.com/vibhuu12/figma.git" target="_blank">
+                <i class="fa-brands fa-square-github"></i>
+            </a>
+        </div>
+
+        </div>
+    </footer>k
+    <!-- footer section Start-->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
